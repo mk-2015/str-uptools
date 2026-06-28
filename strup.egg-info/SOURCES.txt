@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+strup/__init__.py
+strup/types.py
+strup.egg-info/PKG-INFO
+strup.egg-info/SOURCES.txt
+strup.egg-info/dependency_links.txt
+strup.egg-info/requires.txt
+strup.egg-info/top_level.txt

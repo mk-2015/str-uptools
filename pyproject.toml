@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["strup"]
+
+[project]
+name = "strup"
+version = "1.0.0"
+description = "A Python package for parsing and validating strings"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+authors = [{ name = "mk-2015", email = "sxcyber17+firepy@gmail.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Markup :: HTML",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+dependencies = [
+    "colorama",
+    "pydantic"
+]
+
+[project.urls]
+Homepage = "https://github.com/mk-2015/str-uptools"
+"Bug Tracker" = "https://github.com/mk-2015/str-uptools/issues"
